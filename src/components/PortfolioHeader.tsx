@@ -47,14 +47,14 @@ export const PortfolioHeader = () => {
 <SheetContent side="right" className="flex flex-col">
   <NavLinks isMobile />
   <div className="mt-auto p-4">
-    <ThemeToggle />
+    <ThemeToggle className="" />
   </div>
 </SheetContent>
           </Sheet>
         ) : (
           <div className="flex items-center gap-2">
   <NavLinks />
-  <ThemeToggle />
+  <ThemeToggle className="" />
 </div>
         )}
       </div>
